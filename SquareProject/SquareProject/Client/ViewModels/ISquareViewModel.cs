@@ -11,4 +11,3 @@ namespace SquareProject.Client.ViewModels
         public void Compute();
     }
 }
-}

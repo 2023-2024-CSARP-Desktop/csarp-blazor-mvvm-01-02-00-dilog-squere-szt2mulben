@@ -8,4 +8,3 @@ namespace SquareProject.Client.Pages.BaseClass
         public event PropertyChangedEventHandler PropertyChanged;
     }
 }
-}

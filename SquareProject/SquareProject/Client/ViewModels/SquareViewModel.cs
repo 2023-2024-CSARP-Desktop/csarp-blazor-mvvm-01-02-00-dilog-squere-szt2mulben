@@ -3,7 +3,7 @@ using SquareProject.Client.Pages.BaseClass;
 
 namespace SquareProject.Client.ViewModels
 {
-    public class SquareViewModel : ViewModelBase
+    public class SquareViewModel : ViewModelBase, ISquareViewModel
     {
         private Square _square;
 

@@ -1,5 +1,6 @@
 ﻿@page "/square"
 
+@using SquareProject.Client.Components
 @using SquareProject.Client.ViewModels;
 @using global::Pages.BaseClass;
 
@@ -13,6 +14,6 @@
 </CascadingValue>
 
 @code {
-    [Inject]
-    public ISquareViewModel? ViewModel { get; set; }
+    [CascadingParameter(Name = "ViewModel")]
+    private ISquareViewModel? ViewModel { get; set; }
 }

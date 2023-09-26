@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Components\EditSquareData.razor" />
     <Content Remove="Pages\BaseClass\BasePage.razor" />
   </ItemGroup>
 
@@ -29,11 +30,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\EditSquareData.razor" />
     <_ContentIncludedByDefault Remove="Pages\BaseClass\BasePage.razor" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Components\EditSquareData.razor" />
     <None Include="Pages\BaseClass\BasePage.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\EditSquareData.razor" />
   </ItemGroup>
 
 </Project>
